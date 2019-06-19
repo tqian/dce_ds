@@ -2,7 +2,7 @@
 
 The code produces deductive estimate for survival probability in a double-sampling design. For methodology details, see working paper:
 
-Qian T., and Frangakis C. Deductive Semiparametric Estimation in Double-Sampling Designs. Submitted to Biometrics. (preprint link to be added)
+Qian T., and Frangakis C. Deductive Semiparametric Estimation in Double-Sampling Designs. https://arxiv.org/abs/1902.11147
 
 
 
