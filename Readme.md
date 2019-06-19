@@ -1,4 +1,4 @@
-# Deductive Estimation For Double-Sampling Designs
+# Deductive and Computerizable Estimation for Double-Sampling Designs
 
 The code produces deductive estimate for survival probability in a double-sampling design. For methodology details, see working paper:
 
