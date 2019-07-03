@@ -1,0 +1,29 @@
+\begin{table}
+
+\caption{\label{tab:}caption for simulation 3}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{cccccccccccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{ } & \multicolumn{3}{c}{DE.Cox} & \multicolumn{3}{c}{DE.Cox($lpha=0$)} & \multicolumn{3}{c}{DE.LN} & \multicolumn{3}{c}{DE.LN($lpha=0$)} \\
+\cmidrule(l{2pt}r{2pt}){3-5} \cmidrule(l{2pt}r{2pt}){6-8} \cmidrule(l{2pt}r{2pt}){9-11} \cmidrule(l{2pt}r{2pt}){12-14}
+GM & $n$ & bias & cp & sd & bias & cp & sd & bias & cp & sd & bias & cp & sd\\
+\midrule
+ & 50 & 0.6 & 92.1 & 6.5 & 1.1 & 92.8 & 6.3 & 0.0 & 91.6 & 6.7 & -2.9 & 83.7 & 8.3\\
+
+ & 100 & -0.1 & 94.2 & 4.6 & 0.3 & 94.2 & 4.5 & -0.2 & 93.7 & 4.6 & -3.3 & 82.1 & 5.9\\
+
+ & 200 & 0.2 & 93.2 & 3.3 & 0.3 & 93.4 & 3.3 & 0.1 & 92.7 & 3.3 & -3.1 & 76.9 & 4.1\\
+
+\multirow{-4}{*}{\centering\arraybackslash 1} & 500 & 0.0 & 93.9 & 2.0 & 0.0 & 94.3 & 2.0 & 0.0 & 93.6 & 2.0 & -3.5 & 55.7 & 2.6\\
+\cmidrule{1-14}
+ & 50 & 2.3 & 85.6 & 9.2 & 5.2 & 82.7 & 9.5 & 0.4 & 88.7 & 11.6 & 3.5 & 85.8 & 10.4\\
+
+ & 100 & 0.3 & 89.8 & 6.2 & 1.5 & 89.4 & 6.1 & 0.7 & 91.1 & 7.1 & 2.6 & 89.8 & 6.9\\
+
+ & 200 & -0.2 & 92.1 & 4.1 & 0.3 & 93.5 & 4.0 & 0.7 & 93.4 & 4.5 & 2.6 & 89.9 & 4.7\\
+
+\multirow{-4}{*}{\centering\arraybackslash 6} & 500 & -0.4 & 92.8 & 2.5 & -0.5 & 92.9 & 2.5 & 0.4 & 93.8 & 2.7 & 2.1 & 84.4 & 2.9\\
+\bottomrule
+\end{tabular}}
+\end{table}

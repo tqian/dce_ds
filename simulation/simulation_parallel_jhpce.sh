@@ -1,0 +1,1 @@
+R CMD BATCH ~/git_deductive/simulation20190608/simulation_parallel_jhpce.R ~/git_deductive/simulation20190608/Rout/simulation_parallel_jhpce.Rout.$SGE_TASK_ID

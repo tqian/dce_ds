@@ -1,0 +1,29 @@
+\begin{table}
+
+\caption{\label{tab:}caption for simulation 1}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{ccccccccccccccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{ } & \multicolumn{3}{c}{DE.Cox} & \multicolumn{3}{c}{DE.LN} & \multicolumn{3}{c}{PAR} & \multicolumn{3}{c}{KM.S} & \multicolumn{3}{c}{KM.C} \\
+\cmidrule(l{2pt}r{2pt}){3-5} \cmidrule(l{2pt}r{2pt}){6-8} \cmidrule(l{2pt}r{2pt}){9-11} \cmidrule(l{2pt}r{2pt}){12-14} \cmidrule(l{2pt}r{2pt}){15-17}
+dgm\_type & n & 1\_bias & 1\_cp & 1\_sd & 3\_bias & 3\_cp & 3\_sd & 7\_bias & 7\_cp & 7\_sd & 12\_bias & 12\_cp & 12\_sd & 13\_bias & 13\_cp & 13\_sd\\
+\midrule
+ & 50 & 0.6 & 92.1 & 6.5 & 0.0 & 91.6 & 6.7 & -1.5 & 89.9 & 6.0 & -0.8 & 95.6 & 6.9 & -1.4 & 97.7 & 6.8\\
+
+ & 100 & -0.1 & 94.2 & 4.6 & -0.2 & 93.7 & 4.6 & -1.9 & 89.4 & 4.2 & -1.1 & 95.1 & 4.9 & -1.7 & 98.6 & 4.9\\
+
+ & 200 & 0.2 & 93.2 & 3.3 & 0.1 & 92.7 & 3.3 & -1.9 & 87.4 & 3.0 & -0.8 & 93.9 & 3.4 & -1.4 & 98.8 & 3.4\\
+
+\multirow{-4}{*}{\centering\arraybackslash 1} & 500 & 0.0 & 93.9 & 2.0 & 0.0 & 93.6 & 2.0 & -2.1 & 74.8 & 1.9 & -0.9 & 93.0 & 2.2 & -1.5 & 98.1 & 2.2\\
+\cmidrule{1-17}
+ & 50 & 2.3 & 85.6 & 9.2 & 0.4 & 88.7 & 11.6 & 0.2 & 92.8 & 7.2 & 12.7 & 67.4 & 7.8 & 15.0 & 62.6 & 7.5\\
+
+ & 100 & 0.3 & 89.8 & 6.2 & 0.7 & 91.1 & 7.1 & -0.2 & 94.2 & 4.7 & 12.9 & 36.9 & 5.3 & 15.2 & 37.6 & 5.0\\
+
+ & 200 & -0.2 & 92.1 & 4.1 & 0.7 & 93.4 & 4.5 & -0.2 & 94.4 & 3.3 & 12.9 & 8.7 & 3.7 & 15.2 & 8.8 & 3.5\\
+
+\multirow{-4}{*}{\centering\arraybackslash 6} & 500 & -0.4 & 92.8 & 2.5 & 0.4 & 93.8 & 2.7 & -0.4 & 94.7 & 2.0 & 12.6 & 0.1 & 2.3 & 14.9 & 0.1 & 2.3\\
+\bottomrule
+\end{tabular}}
+\end{table}
